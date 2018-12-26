@@ -6,15 +6,13 @@ body{
 #welcomeSection{
   margin-top: 0;
   height: 100vh;
-  background-image: url("/img/wallpaper.jpeg");
-  background-size: cover;
+  display: flex;
 }
 
 nav{
   height: 100vh;
   width: 20vw;
   background-color: #ededed;
-  display: inline-block;
 }
 
 .logo{
@@ -31,4 +29,36 @@ nav ul li{
 
 nav ul li:hover{
   color: #000000;
+}
+
+#splash{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+  background-image: url("/img/wallpaper.jpeg");
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+}
+
+#splash h1, h3{
+  text-shadow: 1px 2px black;
+  color: white;
+}
+
+#splash h1{
+  font-size: 5em;
+  margin: 0;
+}
+
+#splash h3{
+  font-size: 2em;
+}
+
+.thumbnail{
+  height: 300px;
+  width: 300px;
 }
