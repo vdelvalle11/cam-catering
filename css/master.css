@@ -11,7 +11,7 @@ body{
 
 nav{
   height: 100vh;
-  width: 20vw;
+  width: 20%;
   background-color: #ededed;
 }
 
@@ -36,7 +36,7 @@ nav ul li:hover{
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
-  width: 100%;
+  width: 80%;
   background-image: url("/img/wallpaper.jpeg");
   background-color: grey;
   background-size: cover;
@@ -58,7 +58,14 @@ nav ul li:hover{
   font-size: 2em;
 }
 
+#foodRoll{
+  display: flex;
+  width: inherit;
+  overflow-x: hidden;
+  margin-top: 40px;
+}
+
 .thumbnail{
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
